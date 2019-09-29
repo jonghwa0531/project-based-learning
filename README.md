@@ -6,150 +6,6 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ## Table of Contents:
 
-- [C#](#c)
-- [C/C++](#cc)
-- [Clojure](#clojure)
-- [Elixir](#elixir)
-- [Erlang](#erlang)
-- [Go](#go)
-- [Haskell](#haskell)
-- [HTML/CSS](#html-and-css)
-- [Java](#java)
-- [JavaScript](#javascript)
-- [Kotlin](#kotlin)
-- [Lua](#lua)
-- [OCaml](#ocaml)
-- [PHP](#php)
-- [Python](#python)
-- [R](#r)
-- [Ruby](#ruby)
-- [Rust](#rust)
-- [Swift](#swift)
-- [Additional resources](#additional-resources)
-
-## C/C++:
-
-- [Build an Interpreter](http://www.craftinginterpreters.com/) (Chapter 14 on is written in C)
-- [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
-- [Write a FUSE Filesystem](https://www.cs.nmsu.edu/~pfeiffer/fuse-tutorial/)
-- [Build Your Own Text Editor](http://viewsourcecode.org/snaptoken/kilo/)
-- [Build Your Own Lisp](http://www.buildyourownlisp.com/)
-- [How to Program an NES Game in C](https://nesdoug.com/)
-- [Write an OS from scratch](https://github.com/tuhdo/os01)
-- [How to create an OS from scratch ](https://github.com/cfenollosa/os-tutorial)
-- [How to Write an Emulator (CHIP-8 interpreter)](http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/)
-- [Beginning Game Programming with C++ and SDL](http://lazyfoo.net/tutorials/SDL/)
-- [Implementing a Key-Value Store](http://codecapsule.com/2012/11/07/ikvs-implementing-a-key-value-store-table-of-contents/)
-- Tiny 3D graphics projects
-  - [Tiny Renderer or how OpenGL works: software rendering in 500 lines of code](https://github.com/ssloy/tinyrenderer/wiki)
-  - [Understandable RayTracing in 256 lines of bare C++](https://github.com/ssloy/tinyraytracer/wiki)
-  - [KABOOM! in 180 lines of bare C++](https://github.com/ssloy/tinykaboom/wiki)
-  - [486 lines of C++: old-school FPS in a weekend](https://github.com/ssloy/tinyraycaster/wiki)
-- Writing a minimal x86-64 JIT compiler in C++
-  - [Part 1](https://solarianprogrammer.com/2018/01/10/writing-minimal-x86-64-jit-compiler-cpp/)
-  - [Part 2](https://solarianprogrammer.com/2018/01/12/writing-minimal-x86-64-jit-compiler-cpp-part-2/)
-- [Build a Live Code-reloader Library for C++](http://howistart.org/posts/cpp/1/index.html)
-- [Write a hash table in C](https://github.com/jamesroutley/write-a-hash-table)
-- [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
-- [Let's Write a Kernel](http://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel)
-- [Write a Bootloader in C](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/)
-- [Linux Container in 500 Lines of Code](https://blog.lizzie.io/linux-containers-in-500-loc.html)
-- [Write Your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
-- [Learning KVM - Implement Your Own Linux Kernel](https://david942j.blogspot.com/2018/10/note-learning-kvm-implement-your-own.html)
-- Write a C compiler
-  - [Part 1: Integers, Lexing and Code Generation](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
-  - [Part 2: Unary Operators](https://norasandler.com/2017/12/05/Write-a-Compiler-2.html)
-  - [Part 3: Binary Operators](https://norasandler.com/2017/12/15/Write-a-Compiler-3.html)
-  - [Part 4: Even More Binary Operators](https://norasandler.com/2017/12/28/Write-a-Compiler-4.html)
-  - [Part 5: Local Variables](https://norasandler.com/2018/01/08/Write-a-Compiler-5.html)
-  - [Part 6: Conditionals](https://norasandler.com/2018/02/25/Write-a-Compiler-6.html)
-  - [Part 7: Compound Statements](https://norasandler.com/2018/03/14/Write-a-Compiler-7.html)
-  - [Part 8: Loops](https://norasandler.com/2018/04/10/Write-a-Compiler-8.html)
-  - [Part 9: Functions](https://norasandler.com/2018/06/27/Write-a-Compiler-9.html)
-  - [Part 10: Global Variables](https://norasandler.com/2019/02/18/Write-a-Compiler-10.html)
-- [Implementing a Language with LLVM](https://llvm.org/docs/tutorial/#kaleidoscope-implementing-a-language-with-llvm)
-- [Meta Crush Saga: a C++17 compile-time game](https://jguegant.github.io//jguegant.github.io/blogs/tech/meta-crush-saga.html)
-- [High-Performance Matrix Multiplication](https://gist.github.com/nadavrot/5b35d44e8ba3dd718e595e40184d03f0)
-- Space Invaders from Scratch
-  - [Part 1](http://nicktasios.nl/posts/space-invaders-from-scratch-part-1.html)
-  - [Part 2](http://nicktasios.nl/posts/space-invaders-from-scratch-part-2.html)
-  - [Part 3](http://nicktasios.nl/posts/space-invaders-from-scratch-part-3.html)
-  - [Part 4](http://nicktasios.nl/posts/space-invaders-from-scratch-part-4.html)
-  - [Part 5](http://nicktasios.nl/posts/space-invaders-from-scratch-part-5.html)
-- [Tetris Tutorial in C++ Platform Independent](http://javilop.com/gamedev/tetris-tutorial-in-c-platform-independent-focused-in-game-logic-for-beginners/)
-- Writing a Linux Debugger
-  - [Part 1: Setup](https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/)
-  - [Part 2: Breakpoints](https://blog.tartanllama.xyz/writing-a-linux-debugger-breakpoints/)
-  - [Part 3: Registers and memory](https://blog.tartanllama.xyz/writing-a-linux-debugger-registers/)
-  - [Part 4: Elves and dwarves](https://blog.tartanllama.xyz/writing-a-linux-debugger-elf-dwarf/)
-  - [Part 5: Source and signals](https://blog.tartanllama.xyz/writing-a-linux-debugger-source-signal/)
-  - [Part 6: Source-level stepping](https://blog.tartanllama.xyz/writing-a-linux-debugger-dwarf-step/)
-  - [Part 7: Source-level breakpoints](https://blog.tartanllama.xyz/writing-a-linux-debugger-source-break/)
-  - [Part 8: Stack unwinding](https://blog.tartanllama.xyz/writing-a-linux-debugger-unwinding/)
-  - [Part 9: Handling variables](https://blog.tartanllama.xyz/writing-a-linux-debugger-variables/)
-  - [Part 10: Advanced topics](https://blog.tartanllama.xyz/writing-a-linux-debugger-advanced-topics/)
-
-### Network programming
-
-- Let's Code a TCP/IP Stack
-
-  - [Part 1: Ethernet & ARP](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
-  - [Part 2: IPv4 & ICMPv4](http://www.saminiir.com/lets-code-tcp-ip-stack-2-ipv4-icmpv4/)
-  - [Part 3: TCP Basics & Handshake](http://www.saminiir.com/lets-code-tcp-ip-stack-3-tcp-handshake/)
-  - [Part 4: TCP Data Flow & Socket API](http://www.saminiir.com/lets-code-tcp-ip-stack-4-tcp-data-flow-socket-api/)
-  - [Part 5: TCP Retransmission](http://www.saminiir.com/lets-code-tcp-ip-stack-5-tcp-retransmission/)
-
-- Programming concurrent servers
-  - [Part 1 - Introduction](https://eli.thegreenplace.net/2017/concurrent-servers-part-1-introduction/)
-  - [Part 2 - Threads](https://eli.thegreenplace.net/2017/concurrent-servers-part-2-threads/)
-  - [Part 3 - Event-driven](https://eli.thegreenplace.net/2017/concurrent-servers-part-3-event-driven/)
-  - [Part 4 - libuv](https://eli.thegreenplace.net/2017/concurrent-servers-part-4-libuv/)
-  - [Part 5 - Redis case study](https://eli.thegreenplace.net/2017/concurrent-servers-part-5-redis-case-study/)
-  - [Part 6 - Callbacks, Promises and async/await](https://eli.thegreenplace.net/2018/concurrent-servers-part-6-callbacks-promises-and-asyncawait/)
-
-### OpenGL:
-
-- Creating 2D Breakout game clone in C++ with OpenGL
-  - [Breakout](https://learnopengl.com/In-Practice/2D-Game/Breakout)
-  - [Setting up](https://learnopengl.com/In-Practice/2D-Game/Setting-up)
-  - [Rendering Sprites](https://learnopengl.com/In-Practice/2D-Game/Rendering-Sprites)
-  - [Levels](https://learnopengl.com/In-Practice/2D-Game/Levels)
-  - Collisions
-    - [Ball](https://learnopengl.com/In-Practice/2D-Game/Collisions/Ball)
-    - [Collision detection](https://learnopengl.com/In-Practice/2D-Game/Collisions/Collision-detection)
-    - [Collision resolution](https://learnopengl.com/In-Practice/2D-Game/Collisions/Collision-resolution)
-  - [Particles](https://learnopengl.com/In-Practice/2D-Game/Particles)
-  - [Postprocessing](https://learnopengl.com/In-Practice/2D-Game/Postprocessing)
-  - [Powerups](https://learnopengl.com/In-Practice/2D-Game/Powerups)
-  - [Audio](https://learnopengl.com/In-Practice/2D-Game/Audio)
-  - [Render text](https://learnopengl.com/In-Practice/2D-Game/Render-text)
-  - [Final thoughts](https://learnopengl.com/In-Practice/2D-Game/Final-thoughts)
-- [Handmade Hero](https://handmadehero.org)
-- [How to Make Minecraft in C++/OpenGL](https://www.youtube.com/playlist?list=PLMZ_9w2XRxiZq1vfw1lrpCMRDufe2MKV_) (video)
-
-## C#:
-
-- [Learn C# By Building a Simple RPG Game](http://scottlilly.com/learn-c-by-building-a-simple-rpg-index/)
-- [Create a Rogue-like game in C#](https://roguesharp.wordpress.com/)
-- [Create a Blank App with C# and Xamarin (work in progress)](https://www.intertech.com/Blog/xamarin-tutorial-part-1-create-a-blank-app/)
-- [Build iOS Photo Library App with Xamarin and Visual Studio](https://www.raywenderlich.com/134049/building-ios-apps-with-xamarin-and-visual-studio)
-- [Building the CoreWiki](https://www.youtube.com/playlist?list=PLVMqA0_8O85yC78I4Xj7z48ES48IQBa7p) This is a Wiki-style content management system that has been completely written in C# with ASP.NET Core and Razor Pages. You can find the source code [here](https://github.com/csharpfritz/CoreWiki).
-
-## Clojure:
-
-- [Build a Twitter Bot with Clojure](http://howistart.org/posts/clojure/1/index.html)
-- [Building a Spell-Checker](https://bernhardwenzel.com/articles/clojure-spellchecker/)
-- [Building a JIRA integration with Clojure & Atlassian Connect](https://hackernoon.com/building-a-jira-integration-with-clojure-atlassian-connect-506ebd112807)
-
-## Elixir
-
-- [Building a Simple Chat App With Elixir and Phoenix](https://sheharyar.me/blog/simple-chat-phoenix-elixir/)
-
-## Erlang
-
-- [ChatBus : build your first multi-user chat room app with Erlang/OTP](https://medium.com/@kansi/chatbus-build-your-first-multi-user-chat-room-app-with-erlang-otp-b55f72064901)
-- [Making a Chat App with Erlang, Rebar, Cowboy and Bullet](http://marianoguerra.org/posts/making-a-chat-app-with-erlang-rebar-cowboy-and-bullet.html)
-
 ## Java:
 
 - [Build an Interpreter](http://www.craftinginterpreters.com/) (Chapter 4-13 is written in Java)
@@ -334,16 +190,6 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build a RESTful API with Flask – The TDD Way](https://scotch.io/tutorials/build-a-restful-api-with-flask-the-tdd-way)
 - [Create A Django API in under 20 minutes](https://codeburst.io/create-a-django-api-in-under-20-minutes-2a082a60f6f3)
 
-### Bots:
-
-- [Build a Reddit Bot](http://pythonforengineers.com/build-a-reddit-bot-part-1/)
-- [How to Make a Reddit Bot - YouTube](https://www.youtube.com/watch?v=krTUf7BpTc0) (video)
-- [Build a Facebook Messenger Bot](https://blog.hartleybrody.com/fb-messenger-bot/)
-- [Making a Reddit + Facebook Messenger Bot](https://pythontips.com/2017/04/13/making-a-reddit-facebook-messenger-bot/)
-- How To Create a Telegram Bot Using Python
-  - [Part 1](https://khashtamov.com/en/how-to-create-a-telegram-bot-using-python/)
-  - [Part 2](https://khashtamov.com/en/how-to-deploy-telegram-bot-django/)
-- [Create a Twitter Bot In Python](https://medium.freecodecamp.org/creating-a-twitter-bot-in-python-with-tweepy-ac524157a607)
 
 ### Data Science:
 
@@ -459,21 +305,6 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build the game "Snake" in the terminal](https://robertheaton.com/2018/12/02/programming-project-5-snake/)
 - [Write yourself a Git](https://wyag.thb.lt/)
 
-## Go:
-
-- [Create a Real Time Chat App with Golang, Angular 2, and WebSocket](https://www.thepolyglotdeveloper.com/2016/12/create-real-time-chat-app-golang-angular-2-websockets/)
-- [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin)
-- [How to Use Godog for Behavior-driven Development in Go et started with Godog](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go)
-- Building Blockchain in Go
-  - [Part 1: Basic Prototype](https://jeiwan.cc/posts/building-blockchain-in-go-part-1/)
-  - [Part 2: Proof of Work](https://jeiwan.cc/posts/building-blockchain-in-go-part-2/)
-  - [Part 3: Persistence and CLI](https://jeiwan.cc/posts/building-blockchain-in-go-part-3/)
-  - [Part 4: Transactions 1](https://jeiwan.cc/posts/building-blockchain-in-go-part-4/)
-  - [Part 5: Address](https://jeiwan.cc/posts/building-blockchain-in-go-part-5/)
-  - [Part 6: Transactions 2](https://jeiwan.cc/posts/building-blockchain-in-go-part-6/)
-  - [Part 7: Network](https://jeiwan.cc/posts/building-blockchain-in-go-part-7/)
-- [Build Web Application with GoLang](https://legacy.gitbook.com/book/astaxie/build-web-application-with-golang/details)
-- [Building a container from scratch in Go - Liz Rice (Microscaling Systems)](https://www.youtube.com/watch?v=Utf-A4rODH8)
 
 ## PHP:
 
@@ -492,9 +323,6 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 6: User Profile](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-5-user-profile-5c3d0c655f3a)
   - [Part 7: Deployment](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-7-deployment-40bb3c895627)
 
-## OCaml:
-
-- [Implement a Language with LLVM in OCaml](https://llvm.org/docs/tutorial/#kaleidoscope-implementing-a-language-with-llvm-in-objective-caml)
 
 ## Ruby:
 
@@ -506,36 +334,11 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build Instagram From Scratch with Ruby on Rails](https://www.dropbox.com/s/9vq430e9s3q7pu8/Let%27s%20Build%20Instagram%20with%20Ruby%20on%20Rails%20-%20Free%20Edition.pdf?dl=0)
 - [Build a Social Network using Rails](https://medium.com/rails-ember-beyond/how-to-build-a-social-network-using-rails-eb31da569233)
 
-## Haskell:
-
-- [Write You a Haskell - Build a modern functional compiler](http://dev.stephendiehl.com/fun/)
-- [Write Yourself a Scheme in 48 hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
-- [Write You A Scheme, Version 2](https://github.com/write-you-a-scheme-v2/scheme)
-- [Roll Your Own IRC Bot](https://wiki.haskell.org/Roll_your_own_IRC_bot)
-- [Let's Build A Basic Compiler in Haskell](http://alephnullplex.github.io/cradle/)
-- [Making Movie Monad](https://lettier.github.io/posts/2016-08-15-making-movie-monad.html)
-- [Making a Website with Haskell **(outdated)**](http://adit.io/posts/2013-04-15-making-a-website-with-haskell.html)
-
 ## R:
 
 - [Build Web Apps with Shiny](http://shiny.rstudio.com/tutorial/)
 - [Build A Cryptocurrency Bot](https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
 - [Learn Associate Rule Mining in R](https://towardsdatascience.com/association-rule-mining-in-r-ddf2d044ae50)
-
-## Rust:
-
-- A Simple Web App in Rust
-  - [Part 1](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-1/)
-  - [Part 2a](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-2a/)
-  - [Part 2b](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-2b/)
-- [Write an OS in pure Rust](https://os.phil-opp.com/)
-- [Build a browser engine in Rust](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)
-- [Write a Microservice in Rust](http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writing_a_microservice_in_rust/)
-- [Learning Rust with Too Many Linked Lists](http://cglab.ca/~abeinges/blah/too-many-lists/book/README.html)
-- Rust in Detail: Writing Scalable Chat Service from Scratch
-  - [Part 1: Implementing WebSocket. Introduction.](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html)
-  - [Part 2: Sending and Receiving Messages](https://nbaksalyar.github.io/2015/11/09/rust-in-detail-2.html)
-- [Writing a Rust Roguelike for the Desktop and the Web](https://aimlesslygoingforward.com/blog/2019/02/09/writing-a-rust-roguelike-for-the-desktop-and-the-web/)
 
 ## Swift:
 
